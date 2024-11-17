@@ -1,0 +1,86 @@
+
+h1.lkjudul {
+    text-align: center;
+    color: #09a5ff;
+    font-size: 30px;
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logomap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.logomap img{
+    width: 200px;
+    height: auto;
+}
+
+form .tabel{
+    display: grid;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+form .tabel .pin i{
+    margin-right: 5px;
+}
+
+form .tabel input{
+    width: 315px;
+    padding: 10px;
+    border: 1px solid #696969;
+    margin-top: 20px;
+}
+
+.titikmap {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titikmap iframe{
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a.btn {
+    text-align: center;
+    width: 100px;
+    color: #111;
+    margin-top: 40px;
+    border:1px solid #111;
+    border-radius: 5px;
+    transition: .1s ease-in-out;
+}
+
+.btn1 {
+    margin-right: 90px;
+}
+.btn2 {
+    margin-left: 90px;
+}
+
+a.btn:hover {
+    background-color: #09a5ff;
+    border: none;
+    color: #fff;
+}

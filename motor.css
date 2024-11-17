@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Kaushan+Script&family=Playball&family=Tangerine:wght@400;700&display=swap');
+
+
+.logo {
+    color: #09a5ff;
+    text-align: center;
+}
+
+.logo h1{
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.logo h1 span{
+    color: gold;
+}
+
+.jadwal {
+    display: grid;
+    justify-content: center; 
+    align-items: center;    
+    margin-top: 30px;
+}
+
+.jadwal a{
+    text-decoration: none;
+}
+
+.jadwal .pilihan {
+    background-color: #fff;
+    text-align: center;
+    color: #111;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 2px;
+    border: 1px solid #004c79;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.jadwal .pilihan:hover {
+    background-color: #09a5ff;
+    color: #fff;
+    border: none;
+}
+
+.jadwal .pilihan p {
+    font-size: 25px;
+}
+
+/* JADWAL HARIAN */
+

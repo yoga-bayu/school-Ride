@@ -1,0 +1,134 @@
+body {
+    background-color: #f5f5f5;
+}
+
+h1.biojudul {
+    text-align: center;
+    color: #09a5ff;
+    font-size: 30px;
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.nama {
+    margin-bottom: 15px;
+}
+.nama label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nama input {
+    width: 97%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.umur {
+    margin-bottom: 15px;
+}
+.umur label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.umur input {
+    width: 97%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.jeniskelamin {
+    display: grid;
+    margin-top: 20px;
+}
+
+.jeniskelamin select{
+    width: 100pxpx;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.foto {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.foto input {
+    display: none;
+}
+
+.foto label {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+    border: 1px dashed #999
+}
+
+.foto label:hover {
+    color: #09a5ff;
+}
+
+.uploadfoto {
+    display: flex;
+}
+
+.uploadfoto P{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.btn {
+    text-align: center;
+    width: 100px;
+    color: #111;
+    margin-top: 100px;
+    border:1px solid #111;
+    border-radius: 5px;
+    transition: .1s ease-in-out;
+}
+
+.btn1 {
+    margin-right: 90px;
+}
+.btn2 {
+    margin-left: 90px;
+}
+
+a.btn:hover {
+    background-color: #09a5ff;
+    border: none;
+    color: #fff;
+}

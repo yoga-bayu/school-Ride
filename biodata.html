@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Ride</title>
+    <link rel="stylesheet" href="biodata.css">
+</head>
+<body>
+    <h1 class="biojudul">Lengkapi Biodata Anak yang ingin dijemput</h1>
+
+    <div class="form-container">
+    <form>
+
+        <div class="foto">
+            <div class="uploadfoto">
+            <input type="file" id="file">
+            <label for="file">Foto</label>
+            <p>Upload Foto (Opsional)</p>
+            </div>
+        </div>
+    
+    <div class="nama">
+        <label>Nama :</label>
+        <input type="text" placeholder="Nama...">     
+    </div>
+    <div class="umur">
+        <label>Umur :</label>
+        <input type="number" placeholder="Usia...">
+    </div>
+    <div class="jeniskelamin">
+        <label for="pilihan">jenis kelamin :</label>
+        <select id="pilihan" name="pilihan" required>
+            <option value="">--Pilih Opsi--</option>
+            <option value="opsi1">Laki-laki</option>
+            <option value="opsi2">Perempuan</option>
+        </select>
+    </div>
+    </form>
+    </div>
+
+    <div class="tombol">
+            
+        <a href="lokasi.html" class="btn btn1">
+            <p>Back</p>
+        <a>
+    
+        <a href="bayar.html" class="btn btn2">
+            <p>Next</p>
+        </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Kaushan+Script&family=Playball&family=Tangerine:wght@400;700&display=swap');
+
+
+.logo {
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to bottom, #64c6ff, #65e0ff);
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -22px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo h1{
+    font-family: "Bangers", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo h1 span{
+    color: gold;
+}
+
+.logo img{
+    width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.menu .motor {
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.menu .motor i{
+    font-size: 40px;
+    color: #64c6ff;
+}
+
+.menu .motor i:hover {
+    color: #09a5ff;
+}
+
+.menu .motor p{
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fitur {
+    display: flex;
+}
+
+.fitur img{
+    width: 200px;
+    height: auto;
+}
+
+.fitur p{
+    text-align: left;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #111;
+    margin-top: 140px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.menufooter {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.menufooter i:hover {
+    color: #09a5ff;
+}
+
+.footer i{
+    font-size: 40px;
+    color: #64c6ff;
+}
+
